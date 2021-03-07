@@ -1,7 +1,6 @@
 package org.geektimes.projects.user.web.controller;
 
 import org.geektimes.projects.user.domain.User;
-import org.geektimes.projects.user.service.impl.UserServiceImpl;
 import org.geektimes.web.mvc.controller.PageController;
 
 import javax.servlet.http.HttpServletRequest;
@@ -29,11 +28,11 @@ public class UserRegisterController implements PageController {
         User user = new User();
         user.setEmail(email);
         user.setPassword(passs);
-        UserServiceImpl userService = new UserServiceImpl();
-        boolean flag = userService.register(user);
-        if(flag){
-          return "froword";
-        }
+//        UserServiceImpl userService = new UserServiceImpl();
+//        boolean flag = userService.register(user);
+//        if(flag){
+//          return "froword";
+//        }
         return "login-form.jsp";
     }
 
