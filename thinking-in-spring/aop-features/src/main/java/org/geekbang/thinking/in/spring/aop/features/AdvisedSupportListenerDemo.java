@@ -22,7 +22,6 @@ import org.geekbang.thinking.in.spring.aop.overview.DefaultEchoService;
 import org.geekbang.thinking.in.spring.aop.overview.EchoService;
 import org.springframework.aop.framework.AdvisedSupport;
 import org.springframework.aop.framework.AdvisedSupportListener;
-import org.springframework.aop.framework.ProxyCreatorSupport;
 import org.springframework.aop.framework.ProxyFactory;
 
 /**

@@ -16,15 +16,11 @@
  */
 package org.geekbang.thinking.in.spring.aop.features;
 
-import org.aspectj.lang.annotation.Aspect;
 import org.geekbang.thinking.in.spring.aop.features.aspect.AspectConfiguration;
 import org.springframework.aop.AfterReturningAdvice;
 import org.springframework.aop.MethodBeforeAdvice;
 import org.springframework.aop.aspectj.annotation.AspectJProxyFactory;
 import org.springframework.aop.framework.AopContext;
-import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.EnableAspectJAutoProxy;
 
 import java.lang.reflect.Method;
 import java.util.HashMap;
