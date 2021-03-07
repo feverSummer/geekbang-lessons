@@ -1,5 +1,6 @@
 package org.geektimes.projects.user.sql;
 
+import java.lang.annotation.*;
 import java.sql.Connection;
 
 import static java.sql.Connection.TRANSACTION_READ_COMMITTED;
